@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captions converter</title>
+</head>
+<body>
+  <textarea name="inputwindow" id="inputwindow" cols="50" rows="20" placeholder="Paste your captions here..."></textarea>
+  <textarea name="outputwindow" id="outputwindow" cols="50" rows="20"></textarea>
+  <br><br>
+  <button id="sbvtosrt">Convert SBV to SRT</button>
+  <br>
+  <button id="srttosbv">Convert SRT to SBV</button>
+  <br>
+  <input type="text" id="shiftvalue" value="+0:00:00.000">
+  <br>
+  <button id="timeshift">Shift captions timing (only SBV format)</button>
+
+  <script src="code/index.js"></script> 
+</body>
+</html>
